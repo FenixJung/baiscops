@@ -9,9 +9,9 @@ var z = 2;
 var sentence = "";
 if(z == 2) {
     console.log("The number is the string 2");
-    } else if (z == 2 ) {
+} else if (z == 2 ) {
     console.log("The number is something else");
-    } else (z ==="2") { 
+} else { 
         console.log("The number is something else");
     }
 console.log(sentence);

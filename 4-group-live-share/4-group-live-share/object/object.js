@@ -11,11 +11,9 @@ const person = {
     firstName: "Mark",
     lastName: "Jacob",
     age: 31,
-    id: A001234,
-    sentence: function() {
-        return this.firstName + " " + this.lastName + " is " + this.age + " years old." + "The employee ID is " + this.id + "."
-    }
+    id: "A001234"
 };
 
-console.log(person);
-console.log(sentence);
+var sentence = person.firstName + " " + person.lastName + " is " + person.age + " years old. The employee ID is " + person.id + "."
+
+console.log(sentence);  //The number is the string 2
