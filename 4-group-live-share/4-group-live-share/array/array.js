@@ -9,4 +9,8 @@
  *
  * Using single line comments write what the output would display.
  */
-//hello whats going on 
+
+var electronics = ["mouse", "keyboard", "monitor"];
+electronics.map((x, index) => {console.log ("The items is a " + x + " Then index is " + index + ".")})
+
+

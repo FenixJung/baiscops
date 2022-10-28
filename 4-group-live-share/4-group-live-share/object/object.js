@@ -6,3 +6,16 @@
  * Then console log the sentence.
  *
  */
+
+const person = {
+    firstName: "Mark",
+    lastName: "Jacob",
+    age: 31,
+    id: A001234,
+    sentence: function() {
+        return this.firstName + " " + this.lastName + " is " + this.age + " years old." + "The employee ID is " + this.id + "."
+    }
+};
+
+console.log(person);
+console.log(sentence);
