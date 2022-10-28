@@ -13,4 +13,6 @@
 var electronics = ["mouse", "keyboard", "monitor"];
 electronics.map((x, index) => {console.log ("The items is a " + x + " Then index is " + index + ".")})
 
-
+//The items is a mouse Then index is 0.
+// The items is a keyboard Then index is 1.
+// The items is a monitor Then index is 2.
